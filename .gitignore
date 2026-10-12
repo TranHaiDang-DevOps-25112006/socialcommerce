@@ -1,0 +1,15 @@
+# Thư viện cài lại được bằng npm ci
+node_modules/
+
+# Code đã biên dịch, build lại được bằng npm run build
+dist/
+
+# Bí mật: KHÔNG BAO GIỜ đưa lên Git
+.env
+.env.*
+!.env.example
+
+# File rác
+*.log
+.DS_Store
+Thumbs.db
